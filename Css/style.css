@@ -1,0 +1,963 @@
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 3px solid black; */
+}
+
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.subheader {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: royalblue;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+img {
+    width: 14px;
+}
+
+
+.appdiv {
+
+    width: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 4px;
+    left: 10px;
+    padding: 12px;
+}
+
+
+.fbdiv:hover , .twitdiv:hover , .instadiv:hover , .youdiv:hover , .whatsdiv:hover {
+    background-color : rgb(88, 124, 241);
+    height: 18px;
+}
+
+
+.paradiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 1em;
+    padding: 15px;
+}
+
+
+.buttons {
+
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    
+}
+
+
+.donorbt , .donatebt , .resultbt {
+
+    cursor: pointer;  
+    background-color: cornsilk;
+    border: 0.1%;
+    border-radius: 10px;
+    border-color: slateblue;
+    font-size: 0.8em;
+    color: darkcyan;
+    padding: 5px;
+
+}
+
+
+.donorbt:hover , .donatebt:hover , .resultbt:hover {
+
+    background-color: rgb(89, 114, 161);
+    color: mintcream;
+
+}
+
+
+.donorbt:active , .donatebt:active , .resultbt:active {
+
+    background-color: rgb(89, 161, 151);
+    color: sienna;
+
+}
+
+.main {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0px;
+    left: 0px;    
+
+}
+
+.submain {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+.image {
+
+    width: 26%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+
+.img {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0px;
+}
+
+.menus {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    background-color: rgb(247, 244, 244);
+
+
+}
+
+.homebt {
+    position: relative;
+    padding-top: 12px;
+    padding-left: 200px;
+
+}
+
+.bt {
+
+    background-color: rgb(55, 55, 187);
+    color: seashell;
+    width: 65px;
+    height: 34px;
+    border: none;
+    border-radius: 15px 15px 0px;
+    font-weight: bold;
+
+}
+
+.dropdownbt {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid violet; */
+    justify-content: right;
+    width: 72%;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.media {
+
+    padding-top: 5px;
+
+}
+
+.about , .Services , .project , .media , .news , .donation {
+
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+
+
+}
+
+.about:hover , .Services:hover , .project:hover , .media:hover , .news:hover , .donation:hover {
+
+    background-color: rgb(55, 55, 187);
+    color: white;
+
+
+}
+
+
+.slider {
+
+    width: 100%;
+    background-color: white;
+    position: relative;
+
+
+}
+
+.d-block {
+
+    width: 1000px;
+    height: 500px;
+    
+
+}
+
+.mess {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background-color: white;
+
+}
+
+.messslide {
+
+    display: inline-block;
+    width: 95%;
+    height: 40%;
+    position: relative;
+    top: 20px;
+    background-color: royalblue;
+
+}
+
+.greenmess {
+
+    display: inline-block;
+    color: rgb(43, 255, 43);
+    font-size: 1em;
+
+}
+
+.whitemess {
+
+    display: inline-block;
+    color: ivory;
+
+}
+
+.bluemess {
+
+    display: inline-block;
+    color: blue;
+
+}
+
+.jumbotron {
+
+    background-color: rgb(240, 238, 238) !important;
+
+}
+
+
+.intro{
+
+    position: relative;
+    align-items: center;
+
+}
+
+font {
+
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.introduction {
+
+    display: flex;
+    font-size: 1em;
+    font-weight: 600;
+    justify-content: center;
+
+}
+
+.favicon {
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    justify-content: center;
+
+}
+
+.favi {
+
+    width: 40px;
+    height: 40px;
+}
+
+hr{
+    width: 15%; 
+    height: 5px;
+    background-color: darkgreen;
+    border: none;
+}
+
+.para {
+
+    width: 50%;
+    justify-content: center;
+
+}
+
+.container-lg {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.para {
+
+    width: 75%;
+
+}
+
+.subpara {
+
+    color : rgb(95, 91, 91);
+    text-align: justify;
+    width: 100%;
+
+}
+
+.estpara {
+
+    padding-top: 0px;
+
+}
+
+.wepara , .topara , .westrpara {
+
+    padding-top: 30px;
+    text-align: justify;
+
+}
+
+.activity {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    /* height: 350px; */
+    background-color: rgb(43, 43, 247);
+    justify-content: center;
+
+}
+
+.subactivity {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 30px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.allfood , .allfamily , .allmed , .alledu {
+
+    padding-top: 70px;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.food , .family , .med , .edu {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.foodimg , .familyimg  , .medimg , .eduimg {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.num {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+
+}
+
+.detail {
+
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    font-weight: 900;
+    color: white;
+
+}
+
+.monthly {
+
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: lightgreen;
+
+}
+
+.wht {
+
+    position: relative;
+    align-items: center;
+    top: 50px;
+
+}
+
+.whatwer {
+
+    display: flex;
+    font-size: 1em;
+    font-weight: 600;
+    justify-content: center;
+
+}
+
+.container-lg {
+
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.container-lg-1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    height:  100px;
+    justify-content: space-around;
+
+}
+
+.works , .welfareworks , .medicalworks , .dastar , .ro , .educt {
+
+    border: 1px solid white;
+    box-shadow: lightgray 6px 6px 9px 9px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: center;
+
+}
+
+.onlinesadqah , .onlinewelfare , .onlinemedical  , .khawan , .plant , .cate {
+
+    background-color: white;
+    justify-content: center;
+    width: 350px;
+
+}
+
+.sad , .wel , .medi , .das , .ropl , .cation {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.sadqah , .welfare , .medicalwo , .dastarkhawan , .roplant , .oneducation {
+
+    width: 80px;
+    height: 80px;
+
+}
+
+.online {
+
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(51, 51, 230);
+    font-weight: 600;
+
+}
+
+.pro {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    justify-content: left;
+    position: relative;
+    top: 500px;
+
+}
+
+
+.two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+
+}
+
+.miss {
+
+    width: 70%;
+
+}
+
+
+.mission {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 55%;
+    font-size: 1.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 51, 230);
+    font-weight: 600;
+}
+
+.hepimg {
+
+    width: 20px;
+    height: 30px;
+
+}
+
+.up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.6em;
+    color: rgb(51, 51, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600 ;
+    width: 30%;
+    height: 50px;
+
+}
+
+.coming{
+
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.hepatitis{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 248, 248);
+    padding-left: 10px;
+    padding-top: 20px; 
+    width: 400px;
+    height: 80px;
+    border: solid rgb(140, 212, 212) 1px;
+
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 900px;
+    height: 100px;
+    padding-left: 40px;
+    position: relative;
+    
+}
+
+.hepa{
+    width: 32px;
+    height: 32px;
+
+}
+.titis{
+    color: mediumblue;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.housing{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 248, 248);
+    padding-left: 10px;
+    padding-top: 20px; 
+    width: 400px;
+    height: 80px;
+    border: solid rgb(140, 212, 212) 1px;
+
+}
+
+.house{
+    width: 32px;
+    height: 32px;
+}
+
+.society{
+    color: mediumblue;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mars{
+    display: flex;
+    padding-right: 150px;
+}
+
+.IT{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 900px;
+    height: 100px;
+    padding-left: 40px;
+    position: relative;
+    top: -150px;
+}
+
+.it-literacy{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 248, 248);
+    padding-left: 10px;
+    padding-top: 20px; 
+    width: 400px;
+    height: 80px;
+    border: solid rgb(140, 212, 212) 1px;
+}
+.it{
+    width: 32px;
+    height: 32px;
+}
+.literacy{
+    color: mediumblue;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.thar{
+    display: flex;
+    flex-direction: row;
+    border: solid  rgb(140, 212, 212) 1px ;
+    width: 400px;
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: rgb(233, 248, 248);
+}
+.park{
+    width: 32px;
+    height: 32px;
+
+}
+.kar{
+    color: mediumblue;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px
+}
+
+.imggal {
+
+    position: relative;
+    align-items: center;
+    width: 100%;
+    top: 10px;
+    text-align: center;
+
+}
+
+.imggallery {
+
+    font-size: 1em;
+
+}
+
+.favicon {
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    justify-content: center;
+
+}
+
+.favi {
+
+    width: 40px;
+    height: 40px;
+}
+
+
+.three {
+
+    width: 100%;
+    padding-top: 50px;
+    justify-content: space-around;
+
+}
+
+
+.six {
+
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.screen {
+
+    width: 200px;
+    height: 150px;
+    justify-content: space-around;
+
+}
+
+.finished {
+
+    position: relative;
+    top: 100px;
+    background-color: black;
+    width: 100%;
+
+}
+
+.random {
+
+    color: blanchedalmond;
+    position: relative;
+    left: 20px;
+
+}
+
+.end {
+
+    position: relative;
+    top: 100px;
+    width: 100%;
+    background-color: blue;
+
+}
+
+
+
+/*
+.submain{
+    
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 55px;
+    left: 0px;
+
+
+}
+
+.image {
+    width: 18%;
+    position: fixed;
+    top: 65px;
+    left: 70px;
+}
+
+.homebt {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    top: 85px;
+    left: 525px;
+    background-color: blue;
+    border: 0.1%;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    width: 6%;
+    height: 4%;
+}
+
+.aboutbt {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    top: 85px;
+    left: 610px;
+    background-color:aliceblue;
+    border: 0px transparent;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+    width: 7%;
+    height: 4%;
+    text-align: center;
+}
+
+select {
+    border: 0px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    text-align: right;
+    cursor: pointer;
+}
+
+select {
+
+display: inline-block;
+cursor: pointer;
+position: fixed;
+top: 85px;
+left: 610px;
+background-color:rgb(247, 247, 247);
+border: 0px transparent;
+border-radius: 20px;
+border-color: white;
+font-size: 0.8em;
+font-weight: bold;
+color: black;
+width: 7%;
+height: 4%;
+text-align: center;
+}
+
+
+select:hover {
+    background-color: blue;
+    border: 0.1% solid wheat;
+}
+
+.aboutbt {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    content: "";
+    top: 30px;
+    left: 610px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+    background-attachment: fixed;
+  
+}
+
+
+.optbt {
+    border-radius: 10px;
+
+}
+
+.serbt {
+
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    top: 85px;
+    left: 710px;
+    background-color:rgb(247, 247, 247);
+    border: 0px transparent;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+    width: 10%;
+    height: 4%;
+    text-align: center;
+}
+
+.serbt:hover {
+    background-color: blue;
+    border: 0.1% solid wheat;
+} */
